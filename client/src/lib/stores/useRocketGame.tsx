@@ -1,6 +1,6 @@
 import { create } from "zustand";
 import { subscribeWithSelector } from "zustand/middleware";
-import { GamePhase, ROCKET, TRACK } from "../constants";
+import { GamePhase, ROCKET, TRACK, HAZARD_TYPES, POWERUP_TYPES, Controls } from "../constants";
 import * as THREE from "three";
 
 interface RocketState {
