@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Rocket main body -->
+  <rect x="38" y="25" width="24" height="50" fill="#ff4a4a" rx="2" />
+  
+  <!-- Nose cone -->
+  <polygon points="50,10 40,25 60,25" fill="#ff4a4a" />
+  
+  <!-- Engine section -->
+  <rect x="40" y="75" width="20" height="10" fill="#333333" rx="2" />
+  
+  <!-- Engine flame -->
+  <path d="M45,85 L55,85 L50,100 Z" fill="#ffaa00">
+    <animate attributeName="fill" values="#ffaa00;#ff6600;#ffaa00" dur="0.5s" repeatCount="indefinite" />
+    <animate attributeName="d" values="M45,85 L55,85 L50,95 Z; M45,85 L55,85 L50,100 Z; M45,85 L55,85 L50,95 Z" dur="0.3s" repeatCount="indefinite" />
+  </path>
+  
+  <!-- Left wing -->
+  <polygon points="20,60 38,60 38,40 30,40" fill="#ffffff" />
+  
+  <!-- Right wing -->
+  <polygon points="80,60 62,60 62,40 70,40" fill="#ffffff" />
+  
+  <!-- Window -->
+  <rect x="42" y="30" width="16" height="10" fill="#5599ff" rx="2" />
+  
+  <!-- Left fin -->
+  <polygon points="38,75 30,85 38,65" fill="#ffffff" />
+  
+  <!-- Right fin -->
+  <polygon points="62,75 70,85 62,65" fill="#ffffff" />
+  
+  <!-- Small details -->
+  <rect x="43" y="45" width="14" height="3" fill="#333333" rx="1" />
+  <rect x="43" y="50" width="14" height="3" fill="#333333" rx="1" />
+  <rect x="43" y="55" width="14" height="3" fill="#333333" rx="1" />
+</svg>
